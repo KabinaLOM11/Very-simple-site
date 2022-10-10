@@ -1,0 +1,173 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.header{
+    background-color: #EEEFF1;
+    padding: 33px 0 32px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #34547A;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.menu-item{
+    padding-right: 42px;
+}
+
+.headline{
+    padding: 70px 0 40px;
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 78px;
+    color: #000000;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.info-text{
+    max-width: 540px;
+    margin-right: 140px;
+}
+
+.headline-btn{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #34547A;
+    padding: 25px 41px;
+}
+
+.about{
+    margin: 145px 290px;
+}
+
+.about-text{
+    text-align: center;
+    font-weight: 500;   
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.about-p p{
+    max-width: 540px;
+    text-align: center;
+    margin-left: 130px;
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.skils-inner{
+    display: flex;
+}
+
+.skils-form{
+    width: 100%;
+    padding: 140px 93px;
+    text-align: center;
+}
+
+.skils-title{
+    margin: 0 0 60px;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: left;
+}
+
+.skils-inner img{
+    width: 555px;
+    height: 440px;
+}
+
+.skils-input{
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #34547A;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.skils-input::placeholder{
+    font-size: 14px;
+    line-height: 18px;
+    color: #727272;
+    opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.footer{
+    background-color: #34547A;
+}
+
+
+
+.footer-inner{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 0;
+    background-color: #34547A;
+}
+
+.footer-link, .phone{
+    margin-left: 106px;
+    margin-top: 79px;
+    margin-right: 106px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.logo-img{
+    width: 60px;
+}
+
